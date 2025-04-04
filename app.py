@@ -17,6 +17,16 @@ st.set_page_config(
 # Application title and description
 st.title("Loan Origination Data Analysis Platform")
 st.markdown("""
+    <div style="display: flex; align-items: center; gap: 10px; margin-top: 20px;">
+        <p style="font-weight: bold; color: green;">Created by:</p>
+        <a href="https://www.linkedin.com/in/danyyudha" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" 
+                 style="width: 20px; height: 20px;">
+        </a>
+        <p><b>Dany Yudha Putra Haque</b></p>
+    </div>
+    """, unsafe_allow_html=True)
+st.markdown("""
 This platform provides interactive visualizations for tracking loan application metrics:
 - Approval rates over time
 - Processing time analysis
